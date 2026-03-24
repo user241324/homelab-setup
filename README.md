@@ -9,15 +9,15 @@ This guide follows my personal setup, which consists of the following:
 
 Additionally, below is a general list of what is required, which will be explained in detail later.
 * Hypervisor
-....* KVM
-....* virt-manager
-....* QEMU
-....* Libvirt
+  - KVM
+  - virt-manager
+  - QEMU
+  - Libvirt
 * ISO files
-....* OPNsense
-....* Desktop OS (Linux or Windows)
-....* Server OS (Linux or Windows)
-....* Kali Linux
+  - OPNsense
+  - Desktop OS (Linux or Windows)
+  - Server OS (Linux or Windows)
+  - Kali Linux
 
 ## Hypervisor Setup
 Initially, let's focus on installing a hypervisor and other tools to help us create and manage virtual machines.
@@ -47,11 +47,11 @@ To create the LAN virtual network in virt-manager:
 2. Under the Edit tab, select Connection Details.
 3. Navigate to the Virtual Networks tab, and select Add Networks at the bottom-left of the page.
 4. In the Create Virtual Networks window:
-....1. Change Mode: to Isolated
-....2. Change Name: to LAN, Isolated, or something else that reminds you of its purpose.
-....3. IPv4 configuration
-........1. Disable DHCPv4 (Uncheck the Enable DHCPv4 box). The goal is that OPNsense will handle DHCP configuration
-........2. Make a note of the IPv4 Network: (for example, 192.168.100.0/24)
+   1. Change Mode: to Isolated
+   2. Change Name: to LAN, Isolated, or something else that reminds you of its purpose.
+   3. IPv4 configuration
+      1. Disable DHCPv4 (Uncheck the Enable DHCPv4 box). The goal is that OPNsense will handle DHCP configuration
+      2. Make a note of the IPv4 Network: (for example, 192.168.100.0/24)
 
 ## Acquiring ISOs
 
