@@ -93,7 +93,7 @@ OPNsense is an open source firewall and routing platform.
    12. **Restore web GUI access defaults?** y
 
 ## Issues
-* After finishing the initial configuration of OPNsense, I was unable to access the web GUI using a virtual machine connected to the LAN network.
+* Unable to access the web GUI using a virtual machine connected to the LAN network.
   * Temporary solution: Rebooting the OPNsense VM allowed me to access the web GUI.
 
 ### Desktop OS
