@@ -94,6 +94,10 @@ OPNsense is an open source firewall and routing platform.
    11. Answer **Do you want to generate a new self-signed web GUI certificate?** with **y**
    12. Answer **Restore web GUI access defaults?** with **y**
 
+## Issues
+* After finishing the initial configuration of OPNsense, I was unable to access the web GUI using a virtual machine connected to the LAN network.
+  * Temporary solution: Rebooting the OPNsense VM allowed me to access the web GUI.
+
 ### Desktop OS
 
 ### Server OS
