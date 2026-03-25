@@ -70,7 +70,7 @@ OPNsense is an open source firewall and routing platform.
 
 ## OPNsense Initial Configuration
 Log in using username **root** and the root password configured during installation.
-**1) Assign interfaces**
+1. **1) Assign interfaces**
    1. **Enter an option:** 1
    2. **Do you want to configure LAGGs now?** N
    3. **Do you want to configure VLANs now?** N
@@ -78,7 +78,7 @@ Log in using username **root** and the root password configured during installat
    5. Enter the WAN interface name which matches the MAC address shown in OPNsense
    6. Enter the LAN interface name which matches the MAC address shown in OPNsense
    7. Press Enter again to skip the optional interface assignment
-**2) Set interface IP address**
+2. **2) Set interface IP address**
    1. **Enter an option:** 2
    2. Select the LAN interface
    3. **Configure IPv4 address LAN interface via DHCP?** N
