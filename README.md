@@ -57,16 +57,14 @@ OPNsense is an open source firewall and routing platform.
 
 ## OPNsense Installation
 1. Acquire the **dvd** image from OPNsense's website
-   * You may need to unzip the image after download, if so use the below command:
-     **bzip2 -d OPNsense-<filename>.bz2**
-3. Create a new virtual machine using the ISO file acquired.
+2. Create a new virtual machine using the ISO file acquired.
    * OPNsense is based on FreeBSD
    * Minimum of 2 CPU threads
    * Minimum required RAM is 3 GB
    * Minimum virtual disk size is 8 GB
-4. Review the configuration prior to installation
+3. Review the configuration prior to installation
    * Add the NAT (WAN) and Isolated (LAN) networks to the VM
-5. Boot the virtual machine and begin installation
+4. Boot the virtual machine and begin installation
    1. When prompted, log in with the user **installer** and password **opnsense**
    2. Follow the installation process (filesystem, partitioning, disk selection, etc.)
    3. Select Root Password
